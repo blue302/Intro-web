@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Open+Sans:wght@300&display=swap');
+/* fonts */
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.Intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+    border: 5px solid #292929;
+    padding: 30px;
+    min-height: 48vh;
+    max-height: 55vh;
+    min-height: 50vh;
+    max-width: 35%;
+    border-radius: 30px;
+    text-align: center;
+}
+.stuff{
+    margin-top: 10%;
+}
+.Socials{
+    margin-top: 5vh;
+    background:#292929;
+    min-height: 12vh;
+    width: 100vw;
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Socials ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.Socials ul li{
+    padding-right: 3rem;
+}
+.Socials ul li:last-child{
+    padding-right: 0px;
+}
+.fa-brands{
+    font-size: 4rem;
+    color: white;
+    transition: .3s;
+}
+.fa-brands:hover{
+    color:aquamarine;
+}
+.mail{
+    margin-top: 10px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    min-width: 500px;
+    margin-bottom: 0px;
+    min-height: 60px;
+    border-top: 3px solid white;
+    transition: .5 ease;
+}
+.mail:hover{
+    border-top: 3px solid aquamarine;
+}
+.mail h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
